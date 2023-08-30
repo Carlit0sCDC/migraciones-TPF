@@ -32,6 +32,7 @@ Hemos definido cuatro Indicadores Clave de Desempeño (KPIs) que serán fundamen
 3. **Diversidad e inclusion:** Mejorar la inclusion y diversidad de Canada. Objetivo mejor el índice de diversidad de 0.75, reflejando el compromiso de la inclusividad y diferentes culturas en Canada. Resaltando la bienvenida del país a los inmigrantes.
 4. **Educación:**  Crecimiento de los estudiantes en universidades. Objetivo de resaltar un 15% de mas estudiantes anualmente para que Canada resalte ante otros paises.
 
+Nuevas propuestas:
 5. **Vistas al informe**:
 KPI: Conseguir 100 vistas del informe por mes.
 Métrica: vistas al dashboard.
