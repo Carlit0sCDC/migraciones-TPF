@@ -1,5 +1,7 @@
 ﻿# Proyecto de Análisis de Flujos Migratorios y sus Impactos
 
+![Logo de la consultora](img/Insight Analysts Collective.png)
+
 ## Descripción General
 
 Este repositorio contiene la solución de datos desarrollada por nuestro equipo de cuatro integrantes contratado por una ONG internacional. Nuestro objetivo es analizar los flujos migratorios y su impacto en distintos aspectos de los países analizados. Para lograrlo, hemos creado un conjunto de herramientas que incluye un data pipeline, base de datos, data warehouse, dashboard y modelos predictivos.
