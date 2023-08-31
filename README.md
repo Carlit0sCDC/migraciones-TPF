@@ -112,7 +112,11 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado.
 - Florencia Miranda
 - Yuri Diaz
 
-** agregar link al monday y una captura de pantalla y link a la presentación**
----
+**Nuestro cronograma** 
+
+[Gantt](https://flormiranda1995s-team.monday.com/boards/5064412581/)
+
+
+** Presentación** 
 
 ¡Agradecemos a la ONG internacional por brindarnos la oportunidad de contribuir a este importante estudio sobre flujos migratorios y su impacto en la sociedad!
