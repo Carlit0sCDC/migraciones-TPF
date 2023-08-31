@@ -1,6 +1,6 @@
 ﻿# Proyecto de Análisis de Flujos Migratorios y sus Impactos
 
-![Logo de la consultora](img/Insight Analysts Collective.png)
+![Logo de la consultora](img/Insight-Analysts-Collective.png)
 
 ## Descripción General
 
