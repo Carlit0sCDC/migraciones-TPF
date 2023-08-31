@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/Insight-Analysts-Collective.png" alt="Logo de Insight Analysts Collective">
 </p>
-
 ## Descripción General
 
 Este repositorio contiene la solución de datos desarrollada por nuestro equipo de cuatro integrantes contratado por una ONG internacional. Nuestro objetivo es analizar los flujos migratorios y su impacto en distintos aspectos de los países analizados. Para lograrlo, hemos creado un conjunto de herramientas que incluye un data pipeline, base de datos, data warehouse, dashboard y modelos predictivos.
