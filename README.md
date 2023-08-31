@@ -4,11 +4,7 @@
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/Logo.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-## Descripción General
-
-Este repositorio contiene la solución de datos desarrollada por nuestro equipo de cuatro integrantes contratado por una ONG internacional. Nuestro objetivo es analizar los flujos migratorios y su impacto en distintos aspectos de los países analizados. Para lograrlo, hemos creado un conjunto de herramientas que incluye un data pipeline, base de datos, data warehouse, dashboard y modelos predictivos.
-
-## Descripción General 2
+## Descripción
 
 Somos **Insight Analysts collective** un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para llevar a cabo este proyecto en el que se analizarán patrones de migración en América, revelando información importante sobre oportunidades en distintos aspectos a tener en cuenta (económico, social, educativo, ambiental) para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. A la vez se pondrá a dispoción los datos revelados por este análisis para ayudar a los futuros emigrantes a tomar una decisión informada en cuanto a la migración
 
