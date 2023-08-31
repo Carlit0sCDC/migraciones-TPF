@@ -40,12 +40,12 @@ Métrica: vistas al dashboard.
 Cálculo del KPI: vistas_actuales/vistas_objetivo*100 (100)
 
 6. **Variación en la Tasa de Migración por País de Origen**:
-KPI: Observar un aumento del 10% en la tasa de migración desde países con alto desempleo y baja tasa de alfabetización el próximo año.
+KPI: Observar un aumento del 10% en la tasa de migración desde países con alto indice de pobreza y alta tasa de alfabetización el próximo año.
 Métrica: Cambio porcentual en la tasa de migración.
 Cálculo del KPI: ((Tasa actual - Tasa anterior) / Tasa anterior) * 100
 
 7. **Variación en la Tasa de Migración de EEUU** (Suponiendo que Canadá captaría estos emigrantes que se disminuyen en eeuu)
-KPI: Observar una disminución del 5% en la tasa de migración desde países con alto desempleo y baja tasa de alfabetización el próximo año.
+KPI: Observar una disminución del 5% en la tasa de migración desde países con alto desempleo y alta tasa de alfabetización el próximo año.
 Métrica: Cambio porcentual en la tasa de migración de eeuu.
 Cálculo del KPI: ((Tasa actual - Tasa anterior) / Tasa anterior) * 100
 
