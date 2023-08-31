@@ -4,7 +4,7 @@
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/Logo.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-## Descripción
+## Descripción General
 
 Somos **Insight Analysts collective** un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para llevar a cabo este proyecto en el que se analizarán patrones de migración en América, revelando información importante sobre oportunidades en distintos aspectos a tener en cuenta (económico, social, educativo, ambiental) para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. A la vez se pondrá a dispoción los datos revelados por este análisis para ayudar a los futuros emigrantes a tomar una decisión informada en cuanto a la migración
 
@@ -20,10 +20,6 @@ Somos **Insight Analysts collective** un equipo de analistas de datos contratado
 4. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
 5. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 6. [Equipo](#equipo)
-
-## Objetivo principal
-
-El objetivo principal de este proyecto es desarrollar una estrategia integral que promueva la emigración de la comunidad latina hacia Canadá, en lugar de Estados Unidos, basándonos en datos objetivos y análisis comparativos. La meta es proporcionar a los latinos información precisa y personalizada sobre las oportunidades y ventajas que ofrece Canadá en términos de calidad de vida, empleo, educación y políticas de inmigración. A través de un enfoque tecnológico y analítico.
 
 ## Objetivo principal modificado
 
