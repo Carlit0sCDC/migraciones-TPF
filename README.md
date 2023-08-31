@@ -16,6 +16,15 @@ Somos **Insight Analysts collective** un equipo de analistas de datos contratado
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/mapa.png" alt="Logo de Insight Analysts Collective">
 </p>
 
+# Índice
+
+1. [Objetivo Principal](#objetivo-principal)
+2. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
+3. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
+4. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
+5. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+6. [Equipo](#equipo)
+
 ## Objetivo principal
 
 El objetivo principal de este proyecto es desarrollar una estrategia integral que promueva la emigración de la comunidad latina hacia Canadá, en lugar de Estados Unidos, basándonos en datos objetivos y análisis comparativos. La meta es proporcionar a los latinos información precisa y personalizada sobre las oportunidades y ventajas que ofrece Canadá en términos de calidad de vida, empleo, educación y políticas de inmigración. A través de un enfoque tecnológico y analítico.
@@ -25,11 +34,28 @@ El objetivo principal de este proyecto es desarrollar una estrategia integral qu
 El objetivo principal de este proyecto es desarrollar una estrategia integral que promueva la emigración de la comunidad latina hacia Canadá, en lugar de Estados Unidos, basándonos en datos objetivos y análisis comparativos. Las meta son, en primer lugar, proporcionar al Ministerio de Migraciones de Canadá insights relevantes para realizar cambios en su estructura que den como resultado el aumento de migrantes latinos hacia Canadá. Y por otro lado, poner a disposición en el sitio de la embajada, éste mismo análisis, que provea información precisa sobre las oportunidades y ventajas que ofrece Canadá en términos de calidad de vida, empleo, educación y políticas de inmigración, guiando a futuros emigrantes hacia un proceso de toma de decisiones informado."
 
 ## Flujo de trabajo
-...
+## ETL (Extracción Transformación y Carga)
+Para este trabajo utilizamos un dataset de la ONU, en específico del Department of Economics and Social Affairs. El dataset nos proporciona datos cada 5 años desde 1990 a 2020 con el destino de los migrantes, segmentado por regiones, continentes, nivel de ingresos y de desarrollo de los países receptores. En el siguiente
+[link](https://www.un.org/development/desa/pd/content/international-migrant-stock) puede encontrarse más información relacionada. También se puede encontrar el dataset titulado *undesa.csv* en la carpeta "data" del repositorio.
+
+Los procesos realizados fueron los siguientes:
+
+* El dataset constaba de 8 tablas. Las tablas de la 2 a la 8 representaban cada año. Procedimos a crear una columna año a cada tabla. 
+* Unimos las tablas en un solo dataset.
+* Sustituímos valores no numéricos y cambiamos los tipos de datos de las columnas.
+* Cambiamos nombres de las columnas y eliminamos las no pertinentes para nuesto objetivo.
+* Exportamos el dataset resultante limpio. 
 
 ## Exploración de Datos (EDA)
 
-Nuestra primera fase consiste en realizar un Análisis Exploratorio de Datos (EDA) exhaustivo para comprender mejor la naturaleza de los flujos migratorios y los posibles impactos en los aspectos socioeconómicos y geopolíticos. A través del EDA, esperamos identificar patrones, relaciones y tendencias que guiarán nuestro análisis y enriquecerán nuestros modelos.
+Para comprender mejor la naturaleza de los flujos migratorios realizamos las siguientes indagaciones:
+
+* Graficar la tendencia migratoria de la región Latin America and the Caribbean 1990-2020.
+* Extraer el aumento porcentual quinquenal y el promedio quinquenal histórico. 
+* Observar la distribución geográfica de migrantes dentro la propia región Latin America and the Caribbean.
+* Segmentación por nivel de ingreso de países de destino
+* Top 2 de regiones a las que más han migrado los latinoamericanos según el nivel de ingresos y porcentaje histórico según el nivel de ingresos. 
+* Regiones preferidas por los migrantes latinoamericanos históricamente. 
 
 ## KPIs (Indicadores Clave de Desempeño)
 
