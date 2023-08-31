@@ -1,8 +1,8 @@
 ﻿# Proyecto de Análisis de Flujos Migratorios y sus Impactos
 
-<div align="center">
-  <img src="https://github.com/fCarlit0sCDC/migraciones-TPF/edit/main/img/Insight-Analysts-Collective.png" alt="Insight-Analysts-Collective" width="200" height="200" />
-</div>
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/Insight-Analysts-Collective.png" alt="Logo de Insight Analysts Collective">
+</p>
 
 ## Descripción General
 
