@@ -57,24 +57,17 @@ Para comprender mejor la naturaleza de los flujos migratorios realizamos las sig
 
 Hemos definido cuatro Indicadores Clave de Desempeño (KPIs) que serán fundamentales para nuestro estudio:
 
-1. **Oportunidades laborales y crecimiento económico:** Aumentando la oferta laboral el objetivo seria aumentar un 10% en algunos sectores como tecnología.
-2. **Calidad de vida:** mejorar el ranking de estilo de vida mundial de Canada. Objetivo estar en los top 10 del mundo.
-3. **Diversidad e inclusion:** Mejorar la inclusion y diversidad de Canada. Objetivo mejor el índice de diversidad de 0.75, reflejando el compromiso de la inclusividad y diferentes culturas en Canada. Resaltando la bienvenida del país a los inmigrantes.
-4. **Educación:**  Crecimiento de los estudiantes en universidades. Objetivo de resaltar un 15% de mas estudiantes anualmente para que Canada resalte ante otros paises.
-
-Nuevas propuestas:
-
-5. **Vistas al informe**:
+1. **Vistas al informe**:
 KPI: Conseguir 100 vistas del informe por mes.
 Métrica: vistas al dashboard.
 Cálculo del KPI: vistas_actuales/vistas_objetivo*100 (100)
 
-6. **Variación en la Tasa de Migración por País de Origen**:
+1. **Variación en la Tasa de Migración por País de Origen**:
 KPI: Observar un aumento del 10% en la tasa de migración desde países con alto indice de pobreza y alta tasa de alfabetización el próximo año.
 Métrica: Cambio porcentual en la tasa de migración.
 Cálculo del KPI: ((Tasa actual - Tasa anterior) / Tasa anterior) * 100
 
-7. **Variación en la Tasa de Migración de EEUU** (Suponiendo que Canadá captaría estos emigrantes que se disminuyen en eeuu)
+3. **Variación en la Tasa de Migración de EEUU** (Suponiendo que Canadá captaría estos emigrantes que se disminuyen en eeuu)
 KPI: Observar una disminución del 5% en la tasa de migración desde países con alto desempleo y alta tasa de alfabetización el próximo año.
 Métrica: Cambio porcentual en la tasa de migración de eeuu.
 Cálculo del KPI: ((Tasa actual - Tasa anterior) / Tasa anterior) * 100
@@ -82,12 +75,12 @@ Cálculo del KPI: ((Tasa actual - Tasa anterior) / Tasa anterior) * 100
 **Justificación y Alusión a la Atracción para Inmigrantes en relación con el PBI:**
 Un aumento del PBI puede hacer que un país sea más atractivo para los inmigrantes, ya que suele estar relacionado con una mayor demanda de mano de obra y más oportunidades económicas. El PBI es una medida clave de la salud económica de un país y, si el PBI de Canadá aumenta significativamente en paralelo con un aumento en la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y oportunidades de crecimiento, lo que a su vez atraería a más migrantes en busca de una mejor calidad de vida y mayores perspectivas laborales. Este KPI busca establecer una conexión tangible entre el aumento del PBI y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar hacia Canadá.
 
-8. **Aumento del PIB nacional(canadá)**
+4. **Aumento del PIB nacional(canadá)**
 KPI: Lograr un incremento del 10% en el PBI de Canadá el próximo año
 Métrica: Cambio porcentual en el PBI de Canadá
 Cálculo del KPI: ((PBI actual - PBI anterior) / PBI anterior) * 100
 
-9. **2da opción kpi anterior: aumento del pib en conjunto con el aumento en la tasa de migración:**
+5. **2da opción kpi anterior: aumento del pib en conjunto con el aumento en la tasa de migración:**
 KPI: Lograr un incremento del 10% en el PBI de Canadá en el mismo período en el que se observe un aumento del 15% en la tasa de migración desde América Latina del próximo año.
 Métrica PBI: Cambio porcentual en el PBI de Canadá.
 Métrica Tasa de Migración: Cambio porcentual en la tasa de migración desde América Latina hacia Canadá.
@@ -116,7 +109,12 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado.
 
 [Gantt](https://flormiranda1995s-team.monday.com/boards/5064412581/)
 
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
+</p>
 
-** Presentación** 
+**Presentación** 
+[Presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit)
+
 
 ¡Agradecemos a la ONG internacional por brindarnos la oportunidad de contribuir a este importante estudio sobre flujos migratorios y su impacto en la sociedad!
