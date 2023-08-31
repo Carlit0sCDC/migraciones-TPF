@@ -102,7 +102,7 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado.
 - Data Pipeline y Data Lake: AWS Glue y S3 Amazon para la ingesta y transformación de datos.
 - Base de Datos: PostgreSQL para almacenar y gestionar datos.
 - Data Warehouse: Amazon Redshift para análisis de datos a gran escala.
-- Dashboard: Tableau para visualización interactiva de resultados.
+- Dashboard: PowerBI para visualización interactiva de resultados.
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
 ## Equipo
