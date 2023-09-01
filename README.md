@@ -12,7 +12,7 @@ Somos **Insight Analysts collective** un equipo de analistas de datos contratado
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/mapa.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-# Índice
+## Índice
 
 1. [Objetivo Principal](#objetivo-principal)
 2. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
@@ -21,14 +21,33 @@ Somos **Insight Analysts collective** un equipo de analistas de datos contratado
 5. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 6. [Equipo](#equipo)
 
-## Objetivo principal modificado
+## Objetivo principal
 
 El objetivo principal de este proyecto es desarrollar una estrategia integral que promueva la emigración de la comunidad latina hacia Canadá, en lugar de Estados Unidos, basándonos en datos objetivos y análisis comparativos. Las meta son, en primer lugar, proporcionar al Ministerio de Migraciones de Canadá insights relevantes para realizar cambios en su estructura que den como resultado el aumento de migrantes latinos hacia Canadá. Y por otro lado, poner a disposición en el sitio de la embajada, éste mismo análisis, que provea información precisa sobre las oportunidades y ventajas que ofrece Canadá en términos de calidad de vida, empleo, educación y políticas de inmigración, guiando a futuros emigrantes hacia un proceso de toma de decisiones informado."
 
 ## Metodología de trabajo
-SCRUM
-Roles
-Cronograma y Gantt
+
+En el marco del proyecto actual, se ha adoptado una metodología ágil para la gestión y ejecución de tareas, específicamente utilizando el marco de trabajo Scrum. El proyecto consta de 3 sprints, cada uno está definido por un período de tiempo de una semana durante la cual se desarrolla y entrega un conjunto de funcionalidades:
+
+- 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
+- 👨‍💻 Sprint #2: Data Engineering
+- 📈 Sprint #3: Data Analytics + ML
+
+Esta metodología nos permite usar un enfoque iterativo e incremental en el que día a día se ven los avances y agregados de valor al proyecto en conjunto con el Scrum Master. Luego al finalizar cada semana se culmina con el sprint mediante una presentación del proyecto a nuestro Product Owner.
+
+El **equipo de trabajo** está compuesto por un grupo de 4 desarrolladores con los siguientes roles:
+**Antonella Nieto** - Ingeniera de datos
+**Carlos Días Colodrero** - Ingeniero de datos
+**Yuri Díaz** - Analista de datos
+**Florencia Miranda** - Científica de datos
+
+Nuestro **cronograma de trabajo** fue gestionado a través de la plataforma Monday y lo pueden ver en en el siguiente [Enlace](https://flormiranda1995s-team.monday.com/boards/5064412581/).
+
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
+</p>
+
+# 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
 
 ## ETL (Extracción Transformación y Carga)
 Para este trabajo utilizamos un dataset de la ONU, en específico del Department of Economics and Social Affairs. El dataset nos proporciona datos cada 5 años desde 1990 a 2020 con el destino de los migrantes, segmentado por regiones, continentes, nivel de ingresos y de desarrollo de los países receptores. En el siguiente
@@ -110,7 +129,7 @@ c- Evaluar si el aumento del PBI y el aumento en la tasa de migración coinciden
 
 d- Si se cumple la relación, se considera que el KPI se ha logrado
 
-## Tecnologías Utilizadas
+## Stack tecnológico seleccionado:
 
 - Data Pipeline y Data Lake: AWS Glue y S3 Amazon para la ingesta y transformación de datos.
 - Base de Datos: PostgreSQL para almacenar y gestionar datos.
@@ -118,23 +137,8 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 - Dashboard: PowerBI para visualización interactiva de resultados.
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
-## Equipo
-
-- Antonella Nieto
-- Carlos Diaz Colodrero
-- Florencia Miranda
-- Yuri Diaz
-
-**Nuestro cronograma** 
-
-[Gantt](https://flormiranda1995s-team.monday.com/boards/5064412581/)
-
-<p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
-</p>
-
-**Presentación** 
-[Presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit)
+## Presentación sprint 1
+A continuación les dejamos el link a la [Presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del sprint 1.
 
 
-¡Agradecemos a la ONG internacional por brindarnos la oportunidad de contribuir a este importante estudio sobre flujos migratorios y su impacto en la sociedad!
+**¡Agradecemos al Ministerio de migraciones por brindarnos la oportunidad de contribuir a este importante proyecto sobre flujos migratorios y su impacto en la sociedad latinoamericana!**
