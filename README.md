@@ -73,11 +73,11 @@ Para comprender mejor la naturaleza de los flujos migratorios realizamos las sig
 * Regiones preferidas por los migrantes latinoamericanos históricamente. 
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/aumento%20de%20la%20migracion%20de%20latinos%20en%20el%20tiempo.jpeg" alt="Variación en la tasa de migración de latinos a lo largo del tiempo" width="500"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/variaci%C3%B3n%20de%20migracion%20de%20latinos%20al%20mundo.jpeg" alt="Migración de latinos al mundo a lo largo del tiempo" width="500"/>
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/aumento%20de%20la%20migracion%20de%20latinos%20en%20el%20tiempo.jpeg" alt="Variación en la tasa de migración de latinos a lo largo del tiempo" width="400"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/variaci%C3%B3n%20de%20migracion%20de%20latinos%20al%20mundo.jpeg" alt="Migración de latinos al mundo a lo largo del tiempo" width="400"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/distribuci%C3%B3n%20por%20nivel%20de%20ingreso%20paises%20destino.jpeg" alt="distribución por nivel de ingresos del pais destino" width="500"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/regiones%20preferidas%20para%20migrar.jpeg" alt="regiones preferidas por los latinos para migrar" width="500"/>
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/distribuci%C3%B3n%20por%20nivel%20de%20ingreso%20paises%20destino.jpeg" alt="distribución por nivel de ingresos del pais destino" width="400"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/regiones%20preferidas%20para%20migrar.jpeg" alt="regiones preferidas por los latinos para migrar" width="400"/>
 </p>
 
 
