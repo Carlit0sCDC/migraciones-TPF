@@ -6,7 +6,7 @@
 
 ## Descripción General
 
-Somos **Insight Analysts collective** un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para llevar a cabo este proyecto en el que se analizarán patrones de migración en América, revelando información importante sobre oportunidades en distintos aspectos a tener en cuenta (económico, social, educativo, ambiental) para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. A la vez se pondrá a dispoción los datos revelados por este análisis para ayudar a los futuros emigrantes a tomar una decisión informada en cuanto a la migración
+Somos **Insight Analysts collective**, un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para llevar a cabo este proyecto en el que se analizarán patrones de migración en América, revelando información importante sobre oportunidades en distintos aspectos a tener en cuenta (económico, social, educativo, ambiental) para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. A la vez se pondrá a disposición los datos revelados por este análisis para ayudar a los futuros emigrantes a tomar una decisión informada en cuanto a la migración.
 
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/mapa.png" alt="Logo de Insight Analysts Collective">
@@ -15,11 +15,12 @@ Somos **Insight Analysts collective** un equipo de analistas de datos contratado
 ## Índice
 
 1. [Objetivo Principal](#objetivo-principal)
-2. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
-3. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
-4. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
-5. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-6. [Equipo](#equipo)
+2. [Metodología de trabajo](#metodología-de-trabajo)
+3. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
+4. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
+5. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
+6. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
+7. [Presentación sprint 1](#presentación-sprint-1)
 
 ## Objetivo principal
 
@@ -27,7 +28,7 @@ El objetivo principal de este proyecto es desarrollar una estrategia integral qu
 
 ## Metodología de trabajo
 
-En el marco del proyecto actual, se ha adoptado una metodología ágil para la gestión y ejecución de tareas, específicamente utilizando el marco de trabajo Scrum. El proyecto consta de 3 sprints, cada uno está definido por un período de tiempo de una semana durante la cual se desarrolla y entrega un conjunto de funcionalidades:
+En el marco del proyecto actual se ha adoptado la metodología ágil Scrum para la gestión y ejecución de tareas. El proyecto consta de 3 sprints, cada uno está definido por un período de tiempo de una semana durante la cual se desarrolla y entrega un conjunto de funcionalidades:
 
 - 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
 - 👨‍💻 Sprint #2: Data Engineering
@@ -35,11 +36,11 @@ En el marco del proyecto actual, se ha adoptado una metodología ágil para la g
 
 Esta metodología nos permite usar un enfoque iterativo e incremental en el que día a día se ven los avances y agregados de valor al proyecto en conjunto con el Scrum Master. Luego al finalizar cada semana se culmina con el sprint mediante una presentación del proyecto a nuestro Product Owner.
 
-El **equipo de trabajo** está compuesto por un grupo de 4 desarrolladores con los siguientes roles:
-**Antonella Nieto** - Ingeniera de datos
-**Carlos Días Colodrero** - Ingeniero de datos
-**Yuri Díaz** - Analista de datos
-**Florencia Miranda** - Científica de datos
+El **equipo de trabajo** está compuesto por un grupo de 4 desarrolladores:
+* **Antonella Nieto** - Ingeniera de datos
+* **Carlos Días Colodrero** - Ingeniero de datos
+* **Yuri Díaz** - Analista de datos
+* **Florencia Miranda** - Científica de datos
 
 Nuestro **cronograma de trabajo** fue gestionado a través de la plataforma Monday y lo pueden ver en en el siguiente [Enlace](https://flormiranda1995s-team.monday.com/boards/5064412581/).
 
@@ -141,13 +142,14 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 ## Stack tecnológico seleccionado:
 
 - Data Pipeline y Data Lake: AWS Glue y S3 Amazon para la ingesta y transformación de datos.
+* Bibliotecas de Python: Pandas, Numpy, Seaborn, Matplotlib.
 - Base de Datos: PostgreSQL para almacenar y gestionar datos.
 - Data Warehouse: Amazon Redshift para análisis de datos a gran escala.
 - Dashboard: PowerBI para visualización interactiva de resultados.
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
 ## Presentación sprint 1
-A continuación les dejamos el link a la [Presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del sprint 1.
+A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del sprint 1.
 
 
 **¡Agradecemos al Ministerio de migraciones por brindarnos la oportunidad de contribuir a este importante proyecto sobre flujos migratorios y su impacto en la sociedad latinoamericana!**
