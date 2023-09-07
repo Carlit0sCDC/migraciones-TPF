@@ -148,12 +148,23 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 - Dashboard: PowerBI para visualización interactiva de resultados.
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
-## Presentación sprint 1
-A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del sprint 1.
 
 # 👨‍💻 Sprint #2: Data Engineering
 
 HITOS...
+Workflow detallando tecnologías (grafico ilustrativo)
+Estructura de datos implementada (DW, DL, etc). JUSTIFICACION
+Pipeline ETL automatizado (screenshot de aws)
+ETL completo (mencionar script endel repo)
+Automatización de carga incremental (video)
+Validación de datos (no sabría que es)
+Documentación (no va en la presentación, es el repo)
+Diccionario de datos (en una tabla)
+Análisis de datos de muestra (no sabria que es)
+MVP dashboard (video demo o capturas de pantalla)
+
+## Presentación
+A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
 
 
 **Queremos enfatizar que este proyecto es completamente ficticio y no implica ninguna relación de trabajo con el Ministerio de Migraciones ni con ninguna entidad gubernamental real. Tiene como único propósito fines educativos y de aprendizaje académico.**
