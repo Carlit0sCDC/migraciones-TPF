@@ -172,8 +172,7 @@ Un Data Lake, en particular Amazon S3, proporciona escalabilidad ilimitada y fle
 3. **Rendimiento de Análisis:**
 
 La estructura del Data Lake permite la ejecución de análisis de datos avanzados y personalizados sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
-=======
->>>>>>> 47190a64d427ad15170f186edddb448ba6586707
+
 
 Pipeline ETL automatizado (screenshot de aws)
 
