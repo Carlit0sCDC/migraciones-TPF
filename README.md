@@ -156,6 +156,7 @@ HITOS...
 Workflow detallando tecnologías (grafico ilustrativo)
 
 Estructura de datos implementada (DW, DL, etc). JUSTIFICACION
+<<<<<<< HEAD
 ## Justificación del Uso de un Modelo No Relacional (Data Lake):
 
 En nuestro proyecto de Análisis de Flujos Migratorios y sus Impactos, hemos optado por implementar un modelo no relacional, específicamente un Data Lake, en lugar de un modelo relacional tradicional. Esta elección se basa en una serie de fundamentos clave que respaldan nuestra decisión:
@@ -171,10 +172,13 @@ Un Data Lake, en particular Amazon S3, proporciona escalabilidad ilimitada y fle
 3. **Rendimiento de Análisis:**
 
 La estructura del Data Lake permite la ejecución de análisis de datos avanzados y personalizados sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
+=======
+>>>>>>> 47190a64d427ad15170f186edddb448ba6586707
 
 Pipeline ETL automatizado (screenshot de aws)
 
 ETL completo (mencionar script endel repo)
+<<<<<<< HEAD
 ## Función Lambda para ETL Automatizado:
 
 La función Lambda, denominada "lambda_handler," es una parte esencial de nuestro flujo de trabajo de procesamiento de datos en la nube. Esta función se encarga de realizar la etapa de transformación en el proceso ETL (Extracción, Transformación y Carga) de datos. Permíteme desglosar cómo funciona en detalle:
@@ -204,6 +208,8 @@ Una vez que los datos se han transformado con éxito, Lambda los coloca en un nu
 Lambda completa su tarea y queda nuevamente en espera de eventos futuros. La velocidad y escalabilidad de Lambda permiten procesar grandes cantidades de datos en poco tiempo, lo que es esencial para un ETL ágil y eficiente.
 
 En resumen, esta función Lambda realiza la fase de transformación del ETL de manera eficaz, asegurando que los datos estén limpios y listos para el análisis posterior. Su capacidad de respuesta a eventos y escalabilidad hacen que sea una herramienta poderosa en nuestro arsenal tecnológico para gestionar y transformar datos de manera automatizada.
+=======
+>>>>>>> 47190a64d427ad15170f186edddb448ba6586707
 
 Automatización de carga incremental (video)
 
