@@ -151,5 +151,9 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 ## Presentación sprint 1
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del sprint 1.
 
+# 👨‍💻 Sprint #2: Data Engineering
 
-**¡Agradecemos al Ministerio de migraciones por brindarnos la oportunidad de contribuir a este importante proyecto sobre flujos migratorios y su impacto en la sociedad latinoamericana!**
+HITOS...
+
+
+**Queremos enfatizar que este proyecto es completamente ficticio y no implica ninguna relación de trabajo con el Ministerio de Migraciones ni con ninguna entidad gubernamental real. Tiene como único propósito fines educativos y de aprendizaje académico.**
