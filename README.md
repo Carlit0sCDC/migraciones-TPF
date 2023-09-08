@@ -16,11 +16,18 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 
 1. [Objetivo Principal](#objetivo-principal)
 2. [Metodología de trabajo](#metodología-de-trabajo)
-3. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
-4. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
-5. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
-6. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
-7. [Presentación sprint 1](#presentación-sprint-1)
+3. [📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#📜-sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
+4. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
+5. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
+6. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
+7. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
+8. [Presentación sprint 1](#presentación-sprint-1)
+9. [👨‍💻 Sprint #2: Data Engineering](#👨‍💻-sprint-2-data-engineering)
+10. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
+11. [WorkFlow y tecnologías](#workflow-y-tecnologías)
+12. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
+13. [Validación de datos](#validación-de-datos)
+14. [Diccionario de datos](#diccionario-de-datos)
 
 ## Objetivo principal
 
@@ -234,7 +241,9 @@ adjuntar imagenes de tabla antes del etl y despues del etl aqui...
 
 ## Diccionario de datos
 
-pegar diccionario aqui...
+Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets/d/1Kqbgxvg3pzMPJwpafznR0o5v2Fp2Tjm3/edit#gid=1757762391)
+ También puede encontrarse  dentro de la carpeta "documentación" del repositorio.
+ 
 
 ## MVP Dashboard
 
