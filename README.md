@@ -236,9 +236,7 @@ En nuestro proyecto, damos una gran importancia a la validación de datos para g
 
 - **Validación de Formato**: Verificamos que los datos sigan el formato esperado, lo que incluye asegurarnos de que las fechas, números, minúsculas y mayúsculas y otros tipos de datos estén en el formato correcto.
 
-
 - **Auditorías y Registros**: Mantenemos registros de las validaciones realizadas, lo que nos permite rastrear cambios y problemas en los datos.
-
 
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1">
@@ -248,19 +246,15 @@ En nuestro proyecto, damos una gran importancia a la validación de datos para g
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_2.jpeg" alt="validacion2">
 </p>
 
-adjuntar imagenes de tabla antes del etl y despues del etl aqui...
-
-
 ## Diccionario de datos
 
 Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets/d/1Kqbgxvg3pzMPJwpafznR0o5v2Fp2Tjm3/edit#gid=1757762391)
  También puede encontrarse  dentro de la carpeta "documentación" del repositorio.
  
-
 ## MVP Dashboard
-
-pegar screenshots dashboard aqui...
-
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash">
+</p>
 
 ## Presentación
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
