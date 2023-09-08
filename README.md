@@ -16,13 +16,13 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 
 1. [Objetivo Principal](#objetivo-principal)
 2. [Metodología de trabajo](#metodología-de-trabajo)
-3. [📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#📜-sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
+3. [Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
 4. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
 5. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
 6. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
 7. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
 8. [Presentación sprint 1](#presentación-sprint-1)
-9. [👨‍💻 Sprint #2: Data Engineering](#👨‍💻-sprint-2-data-engineering)
+9. [Sprint #2: Data Engineering](#sprint-2-data-engineering)
 10. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
 11. [WorkFlow y tecnologías](#workflow-y-tecnologías)
 12. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
@@ -57,7 +57,7 @@ Nuestro **cronograma de trabajo** fue gestionado a través de la plataforma Mond
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-# 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
+# Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
 
 ## ETL (Extracción Transformación y Carga)
 Para este trabajo utilizamos un dataset de la ONU, en específico del Department of Economics and Social Affairs. El dataset nos proporciona datos cada 5 años desde 1990 a 2020 con el destino de los migrantes, segmentado por regiones, continentes, nivel de ingresos y de desarrollo de los países receptores. En el siguiente
@@ -158,7 +158,7 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
 
-# 👨‍💻 Sprint #2: Data Engineering
+# Sprint #2: Data Engineering
 
 ## Estructura de datos implementada (Data Lake):
 
