@@ -151,13 +151,7 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 
 # 👨‍💻 Sprint #2: Data Engineering
 
-HITOS...
-
-Workflow detallando tecnologías (grafico ilustrativo)
-
-Estructura de datos implementada (DW, DL, etc). JUSTIFICACION
-
-## Justificación del Uso de un Modelo No Relacional (Data Lake):
+## Estructura de datos implementada (Data Lake):
 
 En nuestro proyecto de Análisis de Flujos Migratorios y sus Impactos, hemos optado por implementar un modelo no relacional, específicamente un Data Lake, en lugar de un modelo relacional tradicional. Esta elección se basa en una serie de fundamentos clave que respaldan nuestra decisión:
 
@@ -173,10 +167,24 @@ Un Data Lake, en particular Amazon S3, proporciona escalabilidad ilimitada y fle
 
 La estructura del Data Lake permite la ejecución de análisis de datos avanzados y personalizados sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
 
+## WorkFlow y tecnologías
 
-Pipeline ETL automatizado (screenshot de aws)
+El flujo de trabajo comienza con la carga de datos crudos en el Data Lake (bucket de S3 "Data inicial"). Luego, una primera función Lambda realiza la transformación inicial y carga los datos transformados en un segundo bucket de S3 llamado "Data Final". Una segunda función Lambda se encarga de la carga incremental y la validación de datos duplicados en el mismo "Data Final" bucket. Este flujo de trabajo garantiza que los datos se transformen, procesen y validen de manera eficiente antes de ser almacenados en el "Data Final" bucket, lo que proporciona un proceso de ETL escalable y confiable.
 
-ETL completo (mencionar script endel repo)
+1) Creación del Data-lake (Buckets data inicial y data final) - **AWS S3**
+  
+2) Creación de función para la carga inicial y transformaciones de datos crudos - **AWS Lambda**
+  
+3) Creación de función para la carga incremental de datos y validación de duplicados - **AWS Lambda**
+  
+4) Conexión del bucket de data final con PowerBI - **AWS S3/Script de python**
+  
+5) MVP Dashboard con los datos extraídos - **PowerBI**
+
+## PIPELINE ETL (AWS CLOUD)
+
+
+
 ## Función Lambda para ETL Automatizado:
 
 La función Lambda, denominada "lambda_handler," es una parte esencial de nuestro flujo de trabajo de procesamiento de datos en la nube. Esta función se encarga de realizar la etapa de transformación en el proceso ETL (Extracción, Transformación y Carga) de datos. Permíteme desglosar cómo funciona en detalle:
@@ -207,19 +215,11 @@ Lambda completa su tarea y queda nuevamente en espera de eventos futuros. La vel
 
 En resumen, esta función Lambda realiza la fase de transformación del ETL de manera eficaz, asegurando que los datos estén limpios y listos para el análisis posterior. Su capacidad de respuesta a eventos y escalabilidad hacen que sea una herramienta poderosa en nuestro arsenal tecnológico para gestionar y transformar datos de manera automatizada.
 
+## Validación de datos
 
-Automatización de carga incremental (video)
+## Diccionario de datos
 
-Validación de datos (no sabría que es)
-
-Documentación (no va en la presentación, es el repo)
-
-Diccionario de datos (en una tabla)
-
-Análisis de datos de muestra (no sabria que es)
-
-MVP dashboard (video demo o capturas de pantalla)
-
+## MVP Dashboard
 
 ## Presentación
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
