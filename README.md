@@ -28,6 +28,8 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 12. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
 13. [Validación de datos](#validación-de-datos)
 14. [Diccionario de datos](#diccionario-de-datos)
+15. [MVP Dashboard](#mvp-dashboard)
+16. [Presentación](#presentación)
 
 ## Objetivo principal
 
@@ -226,7 +228,17 @@ En resumen, esta función Lambda realiza la fase de transformación del ETL de m
 
 ## Validación de datos
 
-texto validación aqui...
+En nuestro proyecto, damos una gran importancia a la validación de datos para garantizar la calidad y la integridad de la información que manejamos. Aquí hay algunas de las prácticas de validación de datos que implementamos:
+
+- **Verificación de Integridad**: Antes de la carga de datos en nuestro sistema, realizamos comprobaciones de integridad para asegurarnos de que los datos sean coherentes y cumplan con las reglas establecidas.
+
+- **Limpieza de Datos**: Implementamos procesos de limpieza de datos para eliminar valores nulos, duplicados y datos inconsistentes. Esto nos permite trabajar con datos confiables.
+
+- **Validación de Formato**: Verificamos que los datos sigan el formato esperado, lo que incluye asegurarnos de que las fechas, números, minúsculas y mayúsculas y otros tipos de datos estén en el formato correcto.
+
+
+- **Auditorías y Registros**: Mantenemos registros de las validaciones realizadas, lo que nos permite rastrear cambios y problemas en los datos.
+
 
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1">
