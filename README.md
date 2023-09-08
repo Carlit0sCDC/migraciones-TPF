@@ -148,8 +148,81 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 - Dashboard: PowerBI para visualización interactiva de resultados.
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
-## Presentación sprint 1
-A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del sprint 1.
+
+# 👨‍💻 Sprint #2: Data Engineering
+
+HITOS...
+
+Workflow detallando tecnologías (grafico ilustrativo)
+
+Estructura de datos implementada (DW, DL, etc). JUSTIFICACION
+
+## Justificación del Uso de un Modelo No Relacional (Data Lake):
+
+En nuestro proyecto de Análisis de Flujos Migratorios y sus Impactos, hemos optado por implementar un modelo no relacional, específicamente un Data Lake, en lugar de un modelo relacional tradicional. Esta elección se basa en una serie de fundamentos clave que respaldan nuestra decisión:
+
+1. **Naturaleza de los Datos:**
+
+Los datos que manejamos son heterogéneos y no siguen una estructura fija de relaciones. Un modelo relacional tradicional sería inadecuado para representar eficazmente esta variedad de datos, que incluyen flujos migratorios y datos socioeconómicos de diversas fuentes.
+
+2. **Escalabilidad y Flexibilidad:**
+
+Un Data Lake, en particular Amazon S3, proporciona escalabilidad ilimitada y flexibilidad necesaria para manejar grandes volúmenes de datos no estructurados o semiestructurados. Esto es esencial ya que trabajamos con una amplia gama de datos que pueden crecer con el tiempo.
+
+3. **Rendimiento de Análisis:**
+
+La estructura del Data Lake permite la ejecución de análisis de datos avanzados y personalizados sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
 
 
-**¡Agradecemos al Ministerio de migraciones por brindarnos la oportunidad de contribuir a este importante proyecto sobre flujos migratorios y su impacto en la sociedad latinoamericana!**
+Pipeline ETL automatizado (screenshot de aws)
+
+ETL completo (mencionar script endel repo)
+## Función Lambda para ETL Automatizado:
+
+La función Lambda, denominada "lambda_handler," es una parte esencial de nuestro flujo de trabajo de procesamiento de datos en la nube. Esta función se encarga de realizar la etapa de transformación en el proceso ETL (Extracción, Transformación y Carga) de datos. Permíteme desglosar cómo funciona en detalle:
+
+1. **Detección de Eventos:**
+
+Lambda se encuentra en un estado de escucha activa, esperando eventos que desencadenen su ejecución. En este caso, está configurada para responder a eventos relacionados con cambios en los "buckets" de Amazon S3. Cuando se carga un nuevo archivo en un "bucket" específico, Lambda se inicia automáticamente. Esta detección de eventos es fundamental para el flujo de trabajo automatizado.
+
+2. **Preparación para el Trabajo:**
+
+Antes de procesar los datos, Lambda necesita información sobre dónde encontrar el archivo y dónde colocar los resultados. Esto se logra a través de la configuración previa, lo que permite a Lambda interactuar con los servicios de AWS.
+
+3. **Recuperación de Datos:**
+
+Lambda accede al archivo en el "bucket" de S3 especificado y recupera los datos. Esto se realiza de manera eficiente y sin problemas, lo que garantiza que ningún dato se pierda en el proceso.
+
+4. **Transformación de Datos:**
+
+Aquí reside el núcleo del trabajo de Lambda. Los datos brutos generalmente no están en el formato ideal para su análisis. Lambda realiza una serie de transformaciones según las reglas especificadas. Por ejemplo, puede convertir cadenas en mayúsculas, corregir datos erróneos y eliminar duplicados. Este proceso de transformación es altamente personalizable y se adapta a las necesidades específicas del proyecto.
+
+5. **Almacenamiento de Datos Transformados:**
+
+Una vez que los datos se han transformado con éxito, Lambda los coloca en un nuevo lugar dentro del mismo o de otro "bucket" de S3. Los datos transformados están ahora en un formato limpio y listos para su uso futuro.
+
+6. **Finalización del Trabajo:**
+
+Lambda completa su tarea y queda nuevamente en espera de eventos futuros. La velocidad y escalabilidad de Lambda permiten procesar grandes cantidades de datos en poco tiempo, lo que es esencial para un ETL ágil y eficiente.
+
+En resumen, esta función Lambda realiza la fase de transformación del ETL de manera eficaz, asegurando que los datos estén limpios y listos para el análisis posterior. Su capacidad de respuesta a eventos y escalabilidad hacen que sea una herramienta poderosa en nuestro arsenal tecnológico para gestionar y transformar datos de manera automatizada.
+
+
+Automatización de carga incremental (video)
+
+Validación de datos (no sabría que es)
+
+Documentación (no va en la presentación, es el repo)
+
+Diccionario de datos (en una tabla)
+
+Análisis de datos de muestra (no sabria que es)
+
+MVP dashboard (video demo o capturas de pantalla)
+
+
+## Presentación
+A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
+
+
+**Queremos enfatizar que este proyecto es completamente ficticio y no implica ninguna relación de trabajo con el Ministerio de Migraciones ni con ninguna entidad gubernamental real. Tiene como único propósito fines educativos y de aprendizaje académico.**
