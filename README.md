@@ -183,9 +183,11 @@ El flujo de trabajo comienza con la carga de datos crudos en el Data Lake (bucke
 
 ## PIPELINE ETL (AWS CLOUD)
 
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE">
+</p>
 
-
-## Función Lambda para ETL Automatizado:
+## [Función Lambda para ETL Automatizado:](https://github.com/Carlit0sCDC/migraciones-TPF/tree/main/lambda-etl)
 
 La función Lambda, denominada "lambda_handler," es una parte esencial de nuestro flujo de trabajo de procesamiento de datos en la nube. Esta función se encarga de realizar la etapa de transformación en el proceso ETL (Extracción, Transformación y Carga) de datos. Permíteme desglosar cómo funciona en detalle:
 
@@ -217,9 +219,27 @@ En resumen, esta función Lambda realiza la fase de transformación del ETL de m
 
 ## Validación de datos
 
+texto validación aqui...
+
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_2.jpeg" alt="validacion2">
+</p>
+
+adjuntar imagenes de tabla antes del etl y despues del etl aqui...
+
+
 ## Diccionario de datos
 
+pegar diccionario aqui...
+
 ## MVP Dashboard
+
+pegar screenshots dashboard aqui...
+
 
 ## Presentación
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
