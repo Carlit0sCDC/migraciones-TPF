@@ -1,0 +1,66 @@
+Nivel_educativo,Campo de estudio,Número_graduados_2019,Ingreso_medio_por_empleo
+"Career, technical or professional training certificate","Total, field of study",35580,36800
+"Career, technical or professional training certificate",Education,1040,31100
+"Career, technical or professional training certificate","Visual and performing arts, and communications technologies",1220,22700
+"Career, technical or professional training certificate",Humanities,1760,24400
+"Career, technical or professional training certificate",Social and behavioural sciences and law,1970,37600
+"Career, technical or professional training certificate","Business, management and public administration",6190,37800
+"Career, technical or professional training certificate","Mathematics, computer and information sciences",460,45700
+"Career, technical or professional training certificate","Architecture, engineering, and related technologies",9060,39600
+"Career, technical or professional training certificate","Agriculture, natural resources and conservation",600,37000
+"Career, technical or professional training certificate",Health and related fields,9430,37900
+"Career, technical or professional training certificate","Personal, protective and transportation services",3820,33800
+"Career, technical or professional training diploma","Total, field of study",101600,41000
+"Career, technical or professional training diploma",Education,1880,39900
+"Career, technical or professional training diploma","Visual and performing arts, and communications technologies",5150,30300
+"Career, technical or professional training diploma",Humanities,1900,36800
+"Career, technical or professional training diploma",Social and behavioural sciences and law,11810,36600
+"Career, technical or professional training diploma","Business, management and public administration",25810,38400
+"Career, technical or professional training diploma",Physical and life sciences and technologies,1910,40100
+"Career, technical or professional training diploma","Mathematics, computer and information sciences",6640,42700
+"Career, technical or professional training diploma","Architecture, engineering, and related technologies",19350,47600
+"Career, technical or professional training diploma","Agriculture, natural resources and conservation",2130,40100
+"Career, technical or professional training diploma",Health and related fields,17130,50400
+"Career, technical or professional training diploma","Personal, protective and transportation services",7700,36400
+"Career, technical or professional training diploma",Other instructional programs,190,38500
+Undergraduate degree,"Total, field of study",140780,53100
+Undergraduate degree,Education,11900,56800
+Undergraduate degree,"Visual and performing arts, and communications technologies",6120,32300
+Undergraduate degree,Humanities,7290,38000
+Undergraduate degree,Social and behavioural sciences and law,27000,43000
+Undergraduate degree,"Business, management and public administration",33920,54200
+Undergraduate degree,Physical and life sciences and technologies,8450,41800
+Undergraduate degree,"Mathematics, computer and information sciences",6510,67300
+Undergraduate degree,"Architecture, engineering, and related technologies",16180,67500
+Undergraduate degree,"Agriculture, natural resources and conservation",2410,49300
+Undergraduate degree,Health and related fields,18070,70600
+Undergraduate degree,"Personal, protective and transportation services",1310,49000
+Undergraduate degree,Other instructional programs,1620,48900
+Professional degree ,"Total, field of study",6850,85300
+Professional degree ,Social and behavioural sciences and law,3580,78200
+Professional degree ,Health and related fields,3270,94300
+Master's degree,"Total, field of study",46430,69300
+Master's degree,Education,5140,77800
+Master's degree,"Visual and performing arts, and communications technologies",920,34300
+Master's degree,Humanities,1440,45000
+Master's degree,Social and behavioural sciences and law,5210,60300
+Master's degree,"Business, management and public administration",12600,79500
+Master's degree,Physical and life sciences and technologies,2080,59300
+Master's degree,"Mathematics, computer and information sciences",2920,77100
+Master's degree,"Architecture, engineering, and related technologies",8220,63500
+Master's degree,"Agriculture, natural resources and conservation",1250,56800
+Master's degree,Health and related fields,6160,74100
+Master's degree,"Personal, protective and transportation services",140,87900
+Master's degree,Other instructional programs,350,72800
+Doctoral degree,"Total, field of study",6390,73000
+Doctoral degree,Education,340,97900
+Doctoral degree,"Visual and performing arts, and communications technologies",120,31700
+Doctoral degree,Humanities,430,52500
+Doctoral degree,Social and behavioural sciences and law,1250,75900
+Doctoral degree,"Business, management and public administration",180,101700
+Doctoral degree,Physical and life sciences and technologies,1450,63800
+Doctoral degree,"Mathematics, computer and information sciences",380,80200
+Doctoral degree,"Architecture, engineering, and related technologies",1330,78900
+Doctoral degree,"Agriculture, natural resources and conservation",210,61700
+Doctoral degree,Health and related fields,620,78000
+Doctoral degree,Other instructional programs,80,74000

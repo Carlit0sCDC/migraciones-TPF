@@ -16,11 +16,20 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 
 1. [Objetivo Principal](#objetivo-principal)
 2. [Metodología de trabajo](#metodología-de-trabajo)
-3. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
-4. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
-5. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
-6. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
-7. [Presentación sprint 1](#presentación-sprint-1)
+3. [Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
+4. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
+5. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
+6. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
+7. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
+8. [Presentación sprint 1](#presentación-sprint-1)
+9. [Sprint #2: Data Engineering](#sprint-2-data-engineering)
+10. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
+11. [WorkFlow y tecnologías](#workflow-y-tecnologías)
+12. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
+13. [Validación de datos](#validación-de-datos)
+14. [Diccionario de datos](#diccionario-de-datos)
+15. [MVP Dashboard](#mvp-dashboard)
+16. [Presentación](#presentación)
 
 ## Objetivo principal
 
@@ -48,7 +57,7 @@ Nuestro **cronograma de trabajo** fue gestionado a través de la plataforma Mond
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-# 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
+# Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
 
 ## ETL (Extracción Transformación y Carga)
 Para este trabajo utilizamos un dataset de la ONU, en específico del Department of Economics and Social Affairs. El dataset nos proporciona datos cada 5 años desde 1990 a 2020 con el destino de los migrantes, segmentado por regiones, continentes, nivel de ingresos y de desarrollo de los países receptores. En el siguiente
@@ -149,15 +158,9 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
 
-# 👨‍💻 Sprint #2: Data Engineering
+# Sprint #2: Data Engineering
 
-HITOS...
-
-Workflow detallando tecnologías (grafico ilustrativo)
-
-Estructura de datos implementada (DW, DL, etc). JUSTIFICACION
-
-## Justificación del Uso de un Modelo No Relacional (Data Lake):
+## Estructura de datos implementada (Data Lake):
 
 En nuestro proyecto de Análisis de Flujos Migratorios y sus Impactos, hemos optado por implementar un modelo no relacional, específicamente un Data Lake, en lugar de un modelo relacional tradicional. Esta elección se basa en una serie de fundamentos clave que respaldan nuestra decisión:
 
@@ -173,11 +176,27 @@ Un Data Lake, en particular Amazon S3, proporciona escalabilidad ilimitada y fle
 
 La estructura del Data Lake permite la ejecución de análisis de datos avanzados y personalizados sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
 
+## WorkFlow y tecnologías
 
-Pipeline ETL automatizado (screenshot de aws)
+El flujo de trabajo comienza con la carga de datos crudos en el Data Lake (bucket de S3 "Data inicial"). Luego, una primera función Lambda realiza la transformación inicial y carga los datos transformados en un segundo bucket de S3 llamado "Data Final". Una segunda función Lambda se encarga de la carga incremental y la validación de datos duplicados en el mismo "Data Final" bucket. Este flujo de trabajo garantiza que los datos se transformen, procesen y validen de manera eficiente antes de ser almacenados en el "Data Final" bucket, lo que proporciona un proceso de ETL escalable y confiable.
 
-ETL completo (mencionar script endel repo)
-## Función Lambda para ETL Automatizado:
+1) Creación del Data-lake (Buckets data inicial y data final) - **AWS S3**
+  
+2) Creación de función para la carga inicial y transformaciones de datos crudos - **AWS Lambda**
+  
+3) Creación de función para la carga incremental de datos y validación de duplicados - **AWS Lambda**
+  
+4) Conexión del bucket de data final con PowerBI - **AWS S3/Script de python**
+  
+5) MVP Dashboard con los datos extraídos - **PowerBI**
+
+## PIPELINE ETL (AWS CLOUD)
+
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE">
+</p>
+
+## [Función Lambda para ETL Automatizado:](https://github.com/Carlit0sCDC/migraciones-TPF/tree/main/lambda-etl)
 
 La función Lambda, denominada "lambda_handler," es una parte esencial de nuestro flujo de trabajo de procesamiento de datos en la nube. Esta función se encarga de realizar la etapa de transformación en el proceso ETL (Extracción, Transformación y Carga) de datos. Permíteme desglosar cómo funciona en detalle:
 
@@ -207,19 +226,35 @@ Lambda completa su tarea y queda nuevamente en espera de eventos futuros. La vel
 
 En resumen, esta función Lambda realiza la fase de transformación del ETL de manera eficaz, asegurando que los datos estén limpios y listos para el análisis posterior. Su capacidad de respuesta a eventos y escalabilidad hacen que sea una herramienta poderosa en nuestro arsenal tecnológico para gestionar y transformar datos de manera automatizada.
 
+## Validación de datos
 
-Automatización de carga incremental (video)
+En nuestro proyecto, damos una gran importancia a la validación de datos para garantizar la calidad y la integridad de la información que manejamos. Aquí hay algunas de las prácticas de validación de datos que implementamos:
 
-Validación de datos (no sabría que es)
+- **Verificación de Integridad**: Antes de la carga de datos en nuestro sistema, realizamos comprobaciones de integridad para asegurarnos de que los datos sean coherentes y cumplan con las reglas establecidas.
 
-Documentación (no va en la presentación, es el repo)
+- **Limpieza de Datos**: Implementamos procesos de limpieza de datos para eliminar valores nulos, duplicados y datos inconsistentes. Esto nos permite trabajar con datos confiables.
 
-Diccionario de datos (en una tabla)
+- **Validación de Formato**: Verificamos que los datos sigan el formato esperado, lo que incluye asegurarnos de que las fechas, números, minúsculas y mayúsculas y otros tipos de datos estén en el formato correcto.
 
-Análisis de datos de muestra (no sabria que es)
+- **Auditorías y Registros**: Mantenemos registros de las validaciones realizadas, lo que nos permite rastrear cambios y problemas en los datos.
 
-MVP dashboard (video demo o capturas de pantalla)
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1">
+</p>
 
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_2.jpeg" alt="validacion2">
+</p>
+
+## Diccionario de datos
+
+Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets/d/1Kqbgxvg3pzMPJwpafznR0o5v2Fp2Tjm3/edit#gid=1757762391)
+ También puede encontrarse  dentro de la carpeta "documentación" del repositorio.
+ 
+## MVP Dashboard
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash">
+</p>
 
 ## Presentación
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
