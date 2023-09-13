@@ -6,7 +6,7 @@
 
 ## Descripción General
 
-Somos **Insight Analysts collective**, un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para llevar a cabo este proyecto en el que se analizarán patrones de migración en América, revelando información importante sobre oportunidades en distintos aspectos a tener en cuenta (económico, social, educativo, ambiental) para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. A la vez se pondrá a disposición los datos revelados por este análisis para ayudar a los futuros emigrantes a tomar una decisión informada en cuanto a la migración.
+Somos **Insight Analysts collective**, un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para analizar patrones de migración en América. Nuestro objetivo es revelar información importante sobre oportunidades en aspectos económicos, sociales, educativos y ambientales para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. Además, pondremos a disposición los datos revelados por el análisis para ayudar a futuros emigrantes a tomar decisiones informadas sobre la migración.
 
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/mapa.png" alt="Logo de Insight Analysts Collective">
@@ -16,51 +16,59 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 
 1. [Objetivo Principal](#objetivo-principal)
 2. [Metodología de trabajo](#metodología-de-trabajo)
-3. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
-4. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
-5. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
-6. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
-7. [Presentación sprint 1](#presentación-sprint-1)
+3. [Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
+4. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
+5. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
+6. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
+7. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
+8. [Presentación sprint 1](#presentación-sprint-1)
+9. [Sprint #2: Data Engineering](#sprint-2-data-engineering)
+10. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
+11. [WorkFlow y tecnologías](#workflow-y-tecnologías)
+12. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
+13. [Validación de datos](#validación-de-datos)
+14. [Diccionario de datos](#diccionario-de-datos)
+15. [MVP Dashboard](#mvp-dashboard)
+16. [Presentación](#presentación)
 
 ## Objetivo principal
 
-El objetivo principal de este proyecto es desarrollar una estrategia integral que promueva la emigración de la comunidad latina hacia Canadá, en lugar de Estados Unidos, basándonos en datos objetivos y análisis comparativos. Las meta son, en primer lugar, proporcionar al Ministerio de Migraciones de Canadá insights relevantes para realizar cambios en su estructura que den como resultado el aumento de migrantes latinos hacia Canadá. Y por otro lado, poner a disposición en el sitio de la embajada, éste mismo análisis, que provea información precisa sobre las oportunidades y ventajas que ofrece Canadá en términos de calidad de vida, empleo, educación y políticas de inmigración, guiando a futuros emigrantes hacia un proceso de toma de decisiones informado."
+Desarrollar una estrategia que promueva la emigración de la comunidad latina hacia Canadá en lugar de Estados Unidos, basándonos en datos objetivos y análisis comparativos. Esto se logrará proporcionando al Ministerio de Migraciones de Canadá información relevante para aumentar el número de migrantes latinos hacia Canadá y ofreciendo en el sitio web de la embajada un análisis detallado sobre las oportunidades y ventajas que ofrece Canadá en términos de calidad de vida, empleo, educación y políticas de inmigración, para guiar a futuros emigrantes en su proceso de toma de decisiones.
 
 ## Metodología de trabajo
 
-En el marco del proyecto actual se ha adoptado la metodología ágil Scrum para la gestión y ejecución de tareas. El proyecto consta de 3 sprints, cada uno está definido por un período de tiempo de una semana durante la cual se desarrolla y entrega un conjunto de funcionalidades:
+Para el proyecto actual, se utiliza la metodología ágil Scrum con 3 sprints. Cada sprint dura una semana y se enfoca en desarrollar y entregar ciertas funcionalidades:
 
 - 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
 - 👨‍💻 Sprint #2: Data Engineering
 - 📈 Sprint #3: Data Analytics + ML
 
-Esta metodología nos permite usar un enfoque iterativo e incremental en el que día a día se ven los avances y agregados de valor al proyecto en conjunto con el Scrum Master. Luego al finalizar cada semana se culmina con el sprint mediante una presentación del proyecto a nuestro Product Owner.
+Usamos un enfoque iterativo e incremental para agregar valor al proyecto día a día, trabajando en conjunto con el Scrum Master. Al final de cada semana, presentamos el proyecto al Product Owner.
 
-El **equipo de trabajo** está compuesto por un grupo de 4 desarrolladores:
+El **equipo de trabajo** está formado por 4 desarrolladores:
 * **Antonella Nieto** - Ingeniera de datos
 * **Carlos Días Colodrero** - Ingeniero de datos
 * **Yuri Díaz** - Analista de datos
 * **Florencia Miranda** - Científica de datos
 
-Nuestro **cronograma de trabajo** fue gestionado a través de la plataforma Monday y lo pueden ver en en el siguiente [Enlace](https://flormiranda1995s-team.monday.com/boards/5064412581/).
+El **cronograma de trabajo** se gestiona en la plataforma Monday. Pueden verlo en este [Enlace](https://flormiranda1995s-team.monday.com/boards/5064412581/).
 
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-# 📜 Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos
+# Sprint #1: Puesta en marcha y Trabajo con Datos
 
 ## ETL (Extracción Transformación y Carga)
-Para este trabajo utilizamos un dataset de la ONU, en específico del Department of Economics and Social Affairs. El dataset nos proporciona datos cada 5 años desde 1990 a 2020 con el destino de los migrantes, segmentado por regiones, continentes, nivel de ingresos y de desarrollo de los países receptores. En el siguiente
-[link](https://www.un.org/development/desa/pd/content/international-migrant-stock) puede encontrarse más información relacionada. También se puede encontrar el dataset titulado *undesa.csv* en la carpeta "data" del repositorio.
+Para este trabajo utilizamos un dataset de la ONU del Department of Economics and Social Affairs que nos proporcionó datos cada 5 años desde 1990 a 2020 sobre los migrantes según su destino, región, continente, nivel de ingresos y desarrollo de los países receptores. En el siguiente
+[link](https://www.un.org/development/desa/pd/content/international-migrant-stock) puede encontrarse más información relacionada. Puede encontrar el dataset titulado undesa.csv en la carpeta "data" del repositorio.
 
-Los procesos realizados fueron los siguientes:
+Los procesos realizados fueron:
 
-* El dataset constaba de 8 tablas. Las tablas de la 2 a la 8 representaban cada año. Procedimos a crear una columna año a cada tabla. 
+* Creamos una columna de año en las tablas 2 a 8 del dataset de 8 tablas. 
 * Unimos las tablas en un solo dataset.
-* Sustituímos valores no numéricos y cambiamos los tipos de datos de las columnas.
-* Cambiamos nombres de las columnas y eliminamos las no pertinentes para nuesto objetivo.
-* Exportamos el dataset resultante limpio. 
+* Limpiamos el dataset cambiando los tipos de datos de las columnas, cambiando nombres de columnas y eliminando las no pertinentes.
+* Exportamos el dataset limpio resultante. 
 
 ## Exploración de Datos (EDA)
 
@@ -110,8 +118,8 @@ Métrica: Cantidad de migrantes anual
 
 Cálculo del KPI: ((Migrantes a la fecha / Migrantes un año atras) - 1) * 100
 
-**Justificación y Alusión a la Atracción para Inmigrantes en relación con el PIB:**
-Un aumento del PBI puede hacer que un país sea más atractivo para los inmigrantes, ya que suele estar relacionado con una mayor demanda de mano de obra y más oportunidades económicas. El PIB es una medida clave de la salud económica de un país y, si el PBI de Canadá aumenta significativamente en paralelo con un aumento en la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y oportunidades de crecimiento, lo que a su vez atraería a más migrantes en busca de una mejor calidad de vida y mayores perspectivas laborales. Este KPI busca establecer una conexión tangible entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar hacia Canadá.
+**Relación entre PIB y Atracción de Inmigrantes:**
+El aumento del PIB de un país puede hacerlo más atractivo para los inmigrantes, ya que generalmente se asocia con una mayor demanda de trabajo y más oportunidades económicas. Si el PIB de Canadá aumenta significativamente junto con la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y atrae a más migrantes en busca de mejores oportunidades. Este KPI establece una conexión entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar a Canadá.
 
 4. **Aumento del PIB per cápita (Canadá)**
    
@@ -149,77 +157,103 @@ d- Si se cumple la relación, se considera que el KPI se ha logrado
 - Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
 
 
-# 👨‍💻 Sprint #2: Data Engineering
+# Sprint #2: Data Engineering
 
-HITOS...
+## Data Lake:
 
-Workflow detallando tecnologías (grafico ilustrativo)
-
-Estructura de datos implementada (DW, DL, etc). JUSTIFICACION
-
-## Justificación del Uso de un Modelo No Relacional (Data Lake):
-
-En nuestro proyecto de Análisis de Flujos Migratorios y sus Impactos, hemos optado por implementar un modelo no relacional, específicamente un Data Lake, en lugar de un modelo relacional tradicional. Esta elección se basa en una serie de fundamentos clave que respaldan nuestra decisión:
+Para nuestro proyecto de Análisis de Flujos Migratorios y sus Impactos, implementamos un modelo no relacional llamado Data Lake en lugar de uno relacional tradicional. Elegimos esto por tres razones clave:
 
 1. **Naturaleza de los Datos:**
 
-Los datos que manejamos son heterogéneos y no siguen una estructura fija de relaciones. Un modelo relacional tradicional sería inadecuado para representar eficazmente esta variedad de datos, que incluyen flujos migratorios y datos socioeconómicos de diversas fuentes.
+Manejamos datos heterogéneos sin una estructura de relaciones fija. Un modelo relacional no sería adecuado, ya que nuestros datos incluyen flujos migratorios y datos socioeconómicos de diversas fuentes.
 
 2. **Escalabilidad y Flexibilidad:**
 
-Un Data Lake, en particular Amazon S3, proporciona escalabilidad ilimitada y flexibilidad necesaria para manejar grandes volúmenes de datos no estructurados o semiestructurados. Esto es esencial ya que trabajamos con una amplia gama de datos que pueden crecer con el tiempo.
+Amazon S3, el Data Lake que usamos, es escalable e ideal para grandes volúmenes de datos no estructurados o semiestructurados. Esto es esencial ya que trabajamos con una amplia gama de datos que pueden crecer con el tiempo.
 
 3. **Rendimiento de Análisis:**
 
-La estructura del Data Lake permite la ejecución de análisis de datos avanzados y personalizados sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
+El Data Lake permite la ejecución de análisis de datos avanzados y personalizados, sin restricciones impuestas por un esquema de tabla predefinido. Esto es esencial para nuestro proyecto, donde necesitamos explorar datos complejos y buscar patrones específicos.
 
+## WorkFlow y tecnologías
 
-Pipeline ETL automatizado (screenshot de aws)
+Los datos crudos se cargan en el Data Lake, en el bucket de S3 "Data inicial". Se transforman y se cargan en un segundo bucket de S3 llamado "Data final" mediante la primera función Lambda. La segunda función Lambda se encarga de la carga incremental y la validación de datos duplicados en el mismo bucket "Data final". Este flujo de trabajo garantiza que los datos se transformen, procesen y validen de manera eficiente antes de ser almacenados en el "Data final", proporcionando así un proceso de ETL escalable y confiable.
 
-ETL completo (mencionar script endel repo)
-## Función Lambda para ETL Automatizado:
+1) Creación del Data-lake (Buckets data inicial y data final) - **AWS S3**
+  
+2) Creación de función para la carga inicial y transformaciones de datos crudos - **AWS Lambda**
+  
+3) Creación de función para la carga incremental de datos y validación de duplicados - **AWS Lambda**
+  
+4) Conexión del bucket de data final con PowerBI - **AWS S3/Script de python**
+  
+5) MVP Dashboard con los datos extraídos - **PowerBI**
 
-La función Lambda, denominada "lambda_handler," es una parte esencial de nuestro flujo de trabajo de procesamiento de datos en la nube. Esta función se encarga de realizar la etapa de transformación en el proceso ETL (Extracción, Transformación y Carga) de datos. Permíteme desglosar cómo funciona en detalle:
+## PIPELINE ETL (AWS CLOUD)
+
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE">
+</p>
+
+## [Función Lambda para ETL Automatizado:](https://github.com/Carlit0sCDC/migraciones-TPF/tree/main/lambda-etl)
+
+La función Lambda "lambda_handler" es esencial para el procesamiento de datos en la nube. Realiza la etapa de transformación del proceso ETL de datos.
 
 1. **Detección de Eventos:**
 
-Lambda se encuentra en un estado de escucha activa, esperando eventos que desencadenen su ejecución. En este caso, está configurada para responder a eventos relacionados con cambios en los "buckets" de Amazon S3. Cuando se carga un nuevo archivo en un "bucket" específico, Lambda se inicia automáticamente. Esta detección de eventos es fundamental para el flujo de trabajo automatizado.
+Lambda espera eventos que desencadenen su ejecución, en este caso, cambios en los "buckets" de Amazon S3.
 
 2. **Preparación para el Trabajo:**
 
-Antes de procesar los datos, Lambda necesita información sobre dónde encontrar el archivo y dónde colocar los resultados. Esto se logra a través de la configuración previa, lo que permite a Lambda interactuar con los servicios de AWS.
+Lambda interactúa con los servicios de AWS para obtener información sobre la ubicación del archivo y dónde colocar los resultados.
 
 3. **Recuperación de Datos:**
 
-Lambda accede al archivo en el "bucket" de S3 especificado y recupera los datos. Esto se realiza de manera eficiente y sin problemas, lo que garantiza que ningún dato se pierda en el proceso.
+Lambda accede al archivo en el "bucket" de S3 y recupera los datos sin perder ninguno.
 
 4. **Transformación de Datos:**
 
-Aquí reside el núcleo del trabajo de Lambda. Los datos brutos generalmente no están en el formato ideal para su análisis. Lambda realiza una serie de transformaciones según las reglas especificadas. Por ejemplo, puede convertir cadenas en mayúsculas, corregir datos erróneos y eliminar duplicados. Este proceso de transformación es altamente personalizable y se adapta a las necesidades específicas del proyecto.
+Lambda transforma los datos según las reglas especificadas, por ejemplo, convirtiendo cadenas en mayúsculas, corrigiendo datos erróneos y eliminando duplicados.
 
 5. **Almacenamiento de Datos Transformados:**
 
-Una vez que los datos se han transformado con éxito, Lambda los coloca en un nuevo lugar dentro del mismo o de otro "bucket" de S3. Los datos transformados están ahora en un formato limpio y listos para su uso futuro.
+Lambda coloca los datos transformados en un nuevo lugar dentro de un "bucket" de S3.
 
 6. **Finalización del Trabajo:**
 
-Lambda completa su tarea y queda nuevamente en espera de eventos futuros. La velocidad y escalabilidad de Lambda permiten procesar grandes cantidades de datos en poco tiempo, lo que es esencial para un ETL ágil y eficiente.
+Lambda completa su tarea y espera eventos futuros. Su velocidad y escalabilidad permiten procesar grandes cantidades de datos en poco tiempo.
 
-En resumen, esta función Lambda realiza la fase de transformación del ETL de manera eficaz, asegurando que los datos estén limpios y listos para el análisis posterior. Su capacidad de respuesta a eventos y escalabilidad hacen que sea una herramienta poderosa en nuestro arsenal tecnológico para gestionar y transformar datos de manera automatizada.
+En resumen, la función Lambda realiza la transformación del ETL de manera eficaz, asegurando que los datos estén limpios y listos para el análisis posterior. Su capacidad de respuesta a eventos y escalabilidad hacen que sea una herramienta poderosa en la gestión y transformación automatizada de datos.
 
+## Validación de datos
 
-Automatización de carga incremental (video)
+En nuestro proyecto, aseguramos la calidad e integridad de la información mediante las siguientes prácticas:
 
-Validación de datos (no sabría que es)
+- **Verificación de Integridad**: Comprobamos que los datos sean coherentes y cumplan con las reglas establecidas antes de cargarlos en nuestro sistema.
 
-Documentación (no va en la presentación, es el repo)
+- **Limpieza de Datos**: Eliminamos valores nulos, duplicados y datos inconsistentes para trabajar con datos confiables.
 
-Diccionario de datos (en una tabla)
+- **Validación de Formato**: Verificamos que los datos sigan el formato esperado, incluyendo fechas, números, minúsculas y mayúsculas, y otros tipos de datos.
 
-Análisis de datos de muestra (no sabria que es)
+- **Auditorías y Registros**: Mantenemos registros de las validaciones realizadas para rastrear cambios y problemas en los datos.
 
-MVP dashboard (video demo o capturas de pantalla)
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1">
+</p>
 
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_2.jpeg" alt="validacion2">
+</p>
+
+## Diccionario de datos
+
+Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets/d/1Kqbgxvg3pzMPJwpafznR0o5v2Fp2Tjm3/edit#gid=1757762391)
+ También puede encontrarse  dentro de la carpeta "documentación" del repositorio.
+ 
+## MVP Dashboard
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash">
+</p>
 
 ## Presentación
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
