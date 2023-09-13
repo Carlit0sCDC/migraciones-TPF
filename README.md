@@ -119,7 +119,7 @@ Métrica: Cantidad de migrantes anual
 Cálculo del KPI: ((Migrantes a la fecha / Migrantes un año atras) - 1) * 100
 
 **Relación entre PIB y Atracción de Inmigrantes:**
-El aumento del PIB de un país puede hacerlo más atractivo para los inmigrantes, ya que generalmente se asocia con una mayor demanda de trabajo y más oportunidades económicas. Si el PIB de Canadá aumenta significativamente junto con la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y atrae a más migrantes en busca de mejores oportunidades. Este KPI establece una conexión entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar a Canadá.
+El aumento del PIB de un país puede hacerlo más atractivo para los inmigrantes, ya que generalmente se asocia con una mayor demanda de trabajo y más oportunidades económicas. Si el PIB de Canadá aumenta significativamente junto con la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y atrae a más migrantes en busca de mejores oportunidades. Este KPI establece una conexión entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar a Canadá
 
 4. **Aumento del PIB per cápita (Canadá)**
    
@@ -188,6 +188,15 @@ Los datos crudos se cargan en el Data Lake, en el bucket de S3 "Data inicial". S
 4) Conexión del bucket de data final con PowerBI - **AWS S3/Script de python**
   
 5) MVP Dashboard con los datos extraídos - **PowerBI**
+
+## PIPELINE ETL (AWS CLOUD)
+
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE">
+</p>
+
+## [Función Lambda para ETL Automatizado:](https://github.com/Carlit0sCDC/migraciones-TPF/tree/main/lambda-etl)
+
 
 ## PIPELINE ETL (AWS CLOUD)
 
