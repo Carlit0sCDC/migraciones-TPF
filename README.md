@@ -104,22 +104,19 @@ Cálculo del KPI: vistas_actuales/vistas_objetivo*100 (100)
 
 2. **Aumento de migrantes Canadá**:
    
-KPI: Observar un aumento del 10% en la cantidad de migrantes desde países con alta tasa de alfabetización el próximo año
+KPI: Observar un aumento del 3% en la cantidad de inmigrantes calificados/universitarios (teniendo en cuenta el promedio de años de estudio de la población) en el próximo año hacia Canadá
 
-Métrica: Cantidad de migrantes anual
+Métrica: Cantidad de inmigrantes anual en Canada provenientes de dichos paises
 
-Cálculo del KPI: ((Migrantes a la fecha / Migrantes un año atras) - 1) * 100
+Cálculo del KPI: ((Inmigrantes a la fecha / Inmigrantes un año atras) - 1) * 100
 
 3. **Disminución de migrantes EEUU** (Suponiendo que Canadá captaría estos migrantes)
    
-KPI: Observar una disminución del 3% en la cantidad de migrantes que eligen como destino EEUU provenientes de países con alta tasa de desempleo durante el próximo año
+KPI: Observar una disminución del 1% en la cantidad de inmigrantes calificados/universitarios que eligen como destino EEUU durante el próximo año, considerando que estos inmigrantes serían captados por Canadá
 
-Métrica: Cantidad de migrantes anual
+Métrica: Cantidad de inmigrantes anual en EEUU provenientes de dichos paises
 
-Cálculo del KPI: ((Migrantes a la fecha / Migrantes un año atras) - 1) * 100
-
-**Relación entre PIB y Atracción de Inmigrantes:**
-El aumento del PIB de un país puede hacerlo más atractivo para los inmigrantes, ya que generalmente se asocia con una mayor demanda de trabajo y más oportunidades económicas. Si el PIB de Canadá aumenta significativamente junto con la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y atrae a más migrantes en busca de mejores oportunidades. Este KPI establece una conexión entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar a Canadá
+Cálculo del KPI: ((Inmigrantes a la fecha / inmigrantes un año atras) - 1) * 100
 
 4. **Aumento del PIB per cápita (Canadá)**
    
@@ -128,6 +125,9 @@ KPI: Lograr un incremento del 5% en el PIB de Canadá el próximo año
 Métrica: PIB per cápita anual
 
 Cálculo del KPI: ((PIB actual / PBI año anterior) - 1) * 100
+
+**Relación entre PIB per cápita y Atracción de Inmigrantes:**
+El aumento del PIB per cápita de un país puede hacerlo más atractivo para los inmigrantes, ya que generalmente se asocia con una mayor demanda de trabajo y más oportunidades económicas, como así también el mayor poder adquisitivo de sus habitantes. Si el PIB de Canadá aumenta significativamente junto con la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y atrae a más inmigrantes en busca de mejores oportunidades. Este KPI establece una conexión entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar a Canadá
 
 
 ## Stack tecnológico seleccionado:
