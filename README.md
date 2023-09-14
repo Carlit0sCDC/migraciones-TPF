@@ -129,23 +129,6 @@ Métrica: PIB per cápita anual
 
 Cálculo del KPI: ((PIB actual / PBI año anterior) - 1) * 100
 
-5. **Aumento del PIB en conjunto con el aumento en la tasa de migración:**
-   
-KPI: Lograr un incremento del 5% en el PIB de Canadá en el mismo período en el que se observe un aumento del 10% en la tasa de migración desde América Latina del próximo año
-
-Métrica PBI: Cambio porcentual en el PBI de Canadá
-
-Métrica Tasa de Migración: Cambio porcentual en la tasa de migración desde América Latina hacia Canadá
-
-Cálculo del KPI:
-
-a- Calcular el cambio porcentual en el PBI de Canadá: ((PBI actual - PBI anterior) / PBI anterior) * 100
-
-b- Calcular el cambio porcentual en la tasa de migración desde América Latina: ((Tasa actual - Tasa anterior) / Tasa anterior) * 100
-
-c- Evaluar si el aumento del PBI y el aumento en la tasa de migración coinciden en el mismo período y si la relación es al menos 10:15 (considerando el aumento del 10% en PBI y el aumento del 15% en migración)
-
-d- Si se cumple la relación, se considera que el KPI se ha logrado
 
 ## Stack tecnológico seleccionado:
 
