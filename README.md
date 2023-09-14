@@ -104,7 +104,7 @@ Cálculo del KPI: vistas_actuales/vistas_objetivo*100 (100)
 
 2. **Aumento de migrantes Canadá**:
    
-KPI: Observar un aumento del 3% en la cantidad de inmigrantes calificados/universitarios (teniendo en cuenta el promedio de años de estudio de la población) en el próximo año hacia Canadá
+KPI: Observar un aumento del 7% en la cantidad de inmigrantes calificados/universitarios (teniendo en cuenta el promedio de años de estudio de la población) en el próximo año hacia Canadá
 
 Métrica: Cantidad de inmigrantes anual en Canada provenientes de dichos paises
 
