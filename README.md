@@ -248,10 +248,10 @@ En el siguiente link https://prediccion-migracion-canada-provincias.onrender.com
 El código se encuentra en el siguiente link: https://github.com/antonellanieto/ml-migracion-canada
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/render.png" alt="dash" width="700">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/render.png" alt="render" width="800">
 </p>
 
-**[Feature engineering] https://github.com/antonellanieto/ml-migracion-canada**
+**[Feature engineering](https://github.com/antonellanieto/ml-migracion-canada)**
 
 El flujo de trabajo para obtener este producto fue en una primera instancia conectar los datos contenidos en la nube (en el bucket de data procesada de AWS) mediante Python, luego se hizo un análisis exploratorio de los datos para detectar patrones y decidir el modelo a usar, por último se entrenó el modelo con sets de entrenamiento y prueba usando la librería de Scikit-Learn de python. Al tener el modelo entrenado se creó una [API] (link al codigo .py de la api) con la librería Fast-API, luego de tenerlo funcionando de manera local se hizo un deploy en render para generar una interfaz amigable para el usuario.
 
