@@ -1,7 +1,7 @@
  # Proyecto de Análisis de Flujos Migratorios y sus Impactos
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/Logo.png" alt="Logo de Insight Analysts Collective">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/Logo.png" alt="Logo de Insight Analysts Collective" >
 </p>
 
 ## Descripción General
@@ -9,7 +9,7 @@
 Somos **Insight Analysts collective**, un equipo de analistas de datos contratados por el Ministerio de Migración de Canadá para analizar patrones de migración en América. Nuestro objetivo es revelar información importante sobre oportunidades en aspectos económicos, sociales, educativos y ambientales para captar emigrantes y contribuir al enriquecimiento cultural y socioeconómico del país. Además, pondremos a disposición los datos revelados por el análisis para ayudar a futuros emigrantes a tomar decisiones informadas sobre la migración.
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/mapa.png" alt="Logo de Insight Analysts Collective">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/mapa.png" alt="mapa_ilustrativo" height="400">
 </p>
 
 ## Índice
@@ -26,8 +26,9 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 10. [Validación de datos](#validación-de-datos)
 11. [Diccionario de datos](#diccionario-de-datos)
 12. [Sprint #3: Data Analytics + ML](#sprint-3-data-analytics--ml)
-15. [MVP Dashboard](#mvp-dashboard)
-16. [Presentación](#presentación)
+13. [Producto entregable: Dashboard](#producto-entregable-tablero-de-control-para-uso-interno-ministerio-de-migraciones-canadá)
+14. [Producto entregable: Modelo de ML](#producto-entregable-api-para-predicción-de-migraciones)
+15. [Presentación proyecto](#presentación)
 
 ## Objetivo principal
 
@@ -52,7 +53,7 @@ El **equipo de trabajo** está formado por 4 desarrolladores:
 El **cronograma de trabajo** se gestiona en la plataforma Monday. Pueden verlo en este [Enlace](https://flormiranda1995s-team.monday.com/boards/5064412581/).
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective" width="700">
 </p>
 
 # 📜Sprint #1: Puesta en marcha y Trabajo con Datos
@@ -88,8 +89,6 @@ Para comprender mejor la naturaleza de los flujos migratorios realizamos las sig
 </p>
 
 ## KPIs (Indicadores Clave de Desempeño)
-
-Hemos definido cuatro Indicadores Clave de Desempeño (KPIs) que serán fundamentales para nuestro estudio:
 
 1. **Vistas al dashboard informativo para inmigrantes**:
    
@@ -162,16 +161,7 @@ Los datos crudos se cargan en el Data Lake, en el bucket de S3 "Data inicial". S
 ## PIPELINE ETL (AWS CLOUD)
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE">
-</p>
-
-## [Función Lambda para ETL Automatizado:](https://github.com/Carlit0sCDC/migraciones-TPF/tree/main/lambda-etl)
-
-
-## PIPELINE ETL (AWS CLOUD)
-
-<p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/PIPELINE.png" alt="PIPELINE" width="700">
 </p>
 
 ## [Función Lambda para ETL Automatizado:](https://github.com/Carlit0sCDC/migraciones-TPF/tree/main/lambda-etl)
@@ -215,11 +205,7 @@ En nuestro proyecto, aseguramos la calidad e integridad de la información media
 - **Auditorías y Registros**: Mantenemos registros de las validaciones realizadas para rastrear cambios y problemas en los datos.
 
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1">
-</p>
-
-<p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_2.jpeg" alt="validacion2">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_1.jpeg" alt="validacion1" width="500"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/validacion_2.jpeg" alt="validacion2" width="500"/>
 </p>
 
 ## Diccionario de datos
@@ -239,28 +225,31 @@ Se eligieron los colores corporativos de la consultora para el diseño y se agre
 La información que alimenta este dashboard fue tomada directamente del bucket de data procesada en nuestra estructura de datos en la nube (AWS)
 
 **Portada**
-
-imagen de portada..
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/portada.png" alt="portadadash" width="700">
+</p>
 
 **Diseño general**
 <p align="center">
-  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash" width="700">
 </p>
 
 **KPIs**
-
-imagen de hojas de kpis una al lado de otra..
+<p align="center">
+  <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/kpi2.png" alt="kpi2" width="500"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/KPI3.png" alt="kpi3" width="500"/>
+</p>
 
 **Informe de análisis**
 En el siguiente [documento] (pegar aqui el informe de analisis) podrán encontrar las conclusiones obtenidas luego del análisis hecho a partir del dashboard
 
-## Producto entregable: API para preddición de migraciones
+## Producto entregable: API para predicción de migraciones
 
 En el siguiente [link] (pegar aqui el link de la api) encontrarán el deployed de una aplicación web en la que podrán predecir la cantidad de migrantes esperados según la zona de Canadá, esto fue desarrollado en base a un modelo de machine learning (tree regressor) que nos permite predecir el número de migrantes en base a las variables " " (escribir que variables independientes se usarion).
 
 captura de pantalla de la api..
 
 **[Feature engineering] (link al codigo donde se desarrola el modelo de ml)**
+
 El flujo de trabajo para obtener este producto fue en una primera instancia conectar los datos contenidos en la nube (en el bucket de data procesada de AWS) mediante Python, luego se hizo un análisis exploratorio de los datos para detectar patrones y decidir el modelo a usar, por último se entrenó el modelo con sets de entrenamiento y prueba usando la librería de Scikit-Learn de python. Al tener el modelo entrenado se creó una [API] (link al codigo .py de la api) con la librería Fast-API, luego de tenerlo funcionando de manera local se hizo un deploy en render para generar una interfaz amigable para el usuario.
 
 El modelo usado fue "" por tal motivos..
