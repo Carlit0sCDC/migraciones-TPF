@@ -242,17 +242,19 @@ La información que alimenta este dashboard fue tomada directamente del bucket d
 **Informe de análisis**
 En el siguiente [documento] (pegar aqui el informe de analisis) podrán encontrar las conclusiones obtenidas luego del análisis hecho a partir del dashboard
 
-## Producto entregable: API para predicción de migraciones
+## Producto entregable: Predicción de migraciones
 
-En el siguiente [link] (pegar aqui el link de la api) encontrarán el deployed de una aplicación web en la que podrán predecir la cantidad de migrantes esperados según la zona de Canadá, esto fue desarrollado en base a un modelo de machine learning (tree regressor) que nos permite predecir el número de migrantes en base a las variables " " (escribir que variables independientes se usarion).
+En el siguiente link https://prediccion-migracion-canada-provincias.onrender.com/ encontrarán el deployed de una aplicación web en la que podrán predecir la cantidad de migrantes esperados según la provincia de Canadá o predicción para el total del país, esto fue desarrollado en base a un modelo de machine learning (Linear Regressor) que nos permite predecir el número de migrantes en base a los datos obtenidos de migraición por cada provincia y el país de los últimos años.
+El código se encuentra en el siguiente link: https://github.com/antonellanieto/ml-migracion-canada
 
-captura de pantalla de la api..
+<img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/kpi2.png](https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/render.png" alt="kpi2" width="500"/>
 
-**[Feature engineering] (link al codigo donde se desarrola el modelo de ml)**
+
+**[Feature engineering] https://github.com/antonellanieto/ml-migracion-canada **
 
 El flujo de trabajo para obtener este producto fue en una primera instancia conectar los datos contenidos en la nube (en el bucket de data procesada de AWS) mediante Python, luego se hizo un análisis exploratorio de los datos para detectar patrones y decidir el modelo a usar, por último se entrenó el modelo con sets de entrenamiento y prueba usando la librería de Scikit-Learn de python. Al tener el modelo entrenado se creó una [API] (link al codigo .py de la api) con la librería Fast-API, luego de tenerlo funcionando de manera local se hizo un deploy en render para generar una interfaz amigable para el usuario.
 
-El modelo usado fue "" por tal motivos..
+El modelo usado fue con el fin de que el cliente pueda tomar decisiones en base a los datos predecidos por provincias, para tener en cuenta la posible distribución de próximos flujos migratorios. Estos resultados de posible flujos migratorios pueden servir para la implementación de desentralización dentro del país, tomando en cuenta los datos previstos en el análisis. 
 
 
 ## Presentación
