@@ -16,17 +16,16 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 
 1. [Objetivo Principal](#objetivo-principal)
 2. [Metodología de trabajo](#metodología-de-trabajo)
-3. [Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
+3. [Sprint #1: Puesta en marcha del proyecto y Trabajo con Datos](#sprint-1-puesta-en-marcha-y-trabajo-con-datos)
 4. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
 5. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
 6. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
 7. [Sprint #2: Data Engineering](#sprint-2-data-engineering)
-8. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
-9. [WorkFlow y tecnologías](#workflow-y-tecnologías)
-10. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
-11. [Validación de datos](#validación-de-datos)
-12. [Diccionario de datos](#diccionario-de-datos)
-13. [Sprint #3: Data Analytics + ML](#📈Sprint-3:-Data-analytics-+-ML)
+8. [WorkFlow y tecnologías](#workflow-y-tecnologías)
+9. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
+10. [Validación de datos](#validación-de-datos)
+11. [Diccionario de datos](#diccionario-de-datos)
+12. [Sprint #3: Data Analytics + ML](#sprint-3-data-analytics--ml)
 15. [MVP Dashboard](#mvp-dashboard)
 16. [Presentación](#presentación)
 
@@ -229,7 +228,7 @@ Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets
  También puede encontrarse  dentro de la carpeta "documentación" del repositorio.
 
 
-# 📈Sprint 3: Data analytics + ML
+# 📈Sprint #3: Data analytics + ML
 
 ## Producto entregable: Dashboard finalizado
 
