@@ -94,9 +94,9 @@ Para comprender mejor la naturaleza de los flujos migratorios realizamos las sig
 
 Hemos definido cuatro Indicadores Clave de Desempeño (KPIs) que serán fundamentales para nuestro estudio:
 
-1. **Vistas al informe**:
+1. **Vistas al dashboard informativo para inmigrantes**:
    
-KPI: Conseguir 100 vistas del informe por mes
+KPI: Conseguir 100 vistas del informe por mes. El propósito de este KPI es dar a conocer la información relevante sobre migraciones a los inmigrantes para que al ver los beneficios de Canadá, decidan a este como su país de destino migratorio. Podrán encontrar la construcción de este dashboard en el siguiente [repositorio](https://github.com/flormiranda1/migraciones_streamlit/tree/main)
 
 Métrica: vistas al dashboard
 
