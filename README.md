@@ -230,11 +230,40 @@ Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets
 
 # 📈Sprint #3: Data analytics + ML
 
-## Producto entregable: Dashboard finalizado
+## Producto entregable: Tablero de control para uso interno (ministerio de migraciones Canadá)
 
+El dashboard esta estructurado en su inicio con una portada interactiva que lleva a las diferentes páginas en donde se veran reflejados los KPIs con sus respectivos gráficos informativos. Además se incluyeron páginas adicionales para un mejor entendimiento del porque de los KPIs y a la vez mejorar la visualización global del tablero.
+
+Se eligieron los colores corporativos de la consultora para el diseño y se agregaron diferentes botones con fucionalidades para obtener información detallada de los gráficos. Cada página es interactiva, el usuario puede filtrar según su necesidad de análisis
+
+La información que alimenta este dashboard fue tomada directamente del bucket de data procesada en nuestra estructura de datos en la nube (AWS)
+
+**Portada**
+
+imagen de portada..
+
+**Diseño general**
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash">
 </p>
+
+**KPIs**
+
+imagen de hojas de kpis una al lado de otra..
+
+**Informe de análisis**
+En el siguiente [documento] (pegar aqui el informe de analisis) podrán encontrar las conclusiones obtenidas luego del análisis hecho a partir del dashboard
+
+## Producto entregable: API para preddición de migraciones
+
+En el siguiente [link] (pegar aqui el link de la api) encontrarán el deployed de una aplicación web en la que podrán predecir la cantidad de migrantes esperados según la zona de Canadá, esto fue desarrollado en base a un modelo de machine learning (tree regressor) que nos permite predecir el número de migrantes en base a las variables " " (escribir que variables independientes se usarion).
+
+captura de pantalla de la api..
+
+**[Feature engineering] (link al codigo donde se desarrola el modelo de ml)**
+El flujo de trabajo para obtener este producto fue en una primera instancia conectar los datos contenidos en la nube (en el bucket de data procesada de AWS) mediante Python, luego se hizo un análisis exploratorio de los datos para detectar patrones y decidir el modelo a usar, por último se entrenó el modelo con sets de entrenamiento y prueba usando la librería de Scikit-Learn de python. Al tener el modelo entrenado se creó una [API] (link al codigo .py de la api) con la librería Fast-API, luego de tenerlo funcionando de manera local se hizo un deploy en render para generar una interfaz amigable para el usuario.
+
+El modelo usado fue "" por tal motivos..
 
 
 ## Presentación
