@@ -247,10 +247,10 @@ En el siguiente [documento] (pegar aqui el informe de analisis) podrán encontra
 En el siguiente link https://prediccion-migracion-canada-provincias.onrender.com/ encontrarán el deployed de una aplicación web en la que podrán predecir la cantidad de migrantes esperados según la provincia de Canadá o predicción para el total del país, esto fue desarrollado en base a un modelo de machine learning (Linear Regressor) que nos permite predecir el número de migrantes en base a los datos obtenidos de migraición por cada provincia y el país de los últimos años.
 El código se encuentra en el siguiente link: https://github.com/antonellanieto/ml-migracion-canada
 
-<img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/kpi2.png](https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/render.png" alt="kpi2" width="500"/>
+<img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/render.png" alt="kpi2" width="500"/>
 
 
-**[Feature engineering] https://github.com/antonellanieto/ml-migracion-canada **
+**[Feature engineering] https://github.com/antonellanieto/ml-migracion-canada**
 
 El flujo de trabajo para obtener este producto fue en una primera instancia conectar los datos contenidos en la nube (en el bucket de data procesada de AWS) mediante Python, luego se hizo un análisis exploratorio de los datos para detectar patrones y decidir el modelo a usar, por último se entrenó el modelo con sets de entrenamiento y prueba usando la librería de Scikit-Learn de python. Al tener el modelo entrenado se creó una [API] (link al codigo .py de la api) con la librería Fast-API, luego de tenerlo funcionando de manera local se hizo un deploy en render para generar una interfaz amigable para el usuario.
 
