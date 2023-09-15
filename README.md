@@ -94,7 +94,7 @@ Para comprender mejor la naturaleza de los flujos migratorios realizamos las sig
    
 KPI: Conseguir 100 vistas del informe por mes. El propósito de este KPI es dar a conocer la información relevante sobre migraciones a los inmigrantes para que al ver los beneficios de Canadá, decidan a este como su país de destino migratorio. Podrán encontrar la construcción de este dashboard en el siguiente [repositorio](https://github.com/flormiranda1/migraciones_streamlit/tree/main)
 
-Métrica: vistas al dashboard
+Métrica: vistas al dashboard [Dataset vistas](https://docs.google.com/spreadsheets/d/1qm1LBKiuc4hovNiY6hodRRXADZIhW7yCQqoqDswfOn4/edit?resourcekey#gid=1060175855)
 
 Cálculo del KPI: vistas_actuales/vistas_objetivo*100 (100)
 
