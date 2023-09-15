@@ -20,14 +20,13 @@ Somos **Insight Analysts collective**, un equipo de analistas de datos contratad
 4. [ETL (Extracción Transformación y Carga)](#etl-extracción-transformación-y-carga)
 5. [Exploración de Datos (EDA)](#exploración-de-datos-eda)
 6. [KPIs (Indicadores Clave de Desempeño)](#kpis-indicadores-clave-de-desempeño)
-7. [Stack tecnológico seleccionado](#stack-tecnológico-seleccionado)
-8. [Presentación sprint 1](#presentación-sprint-1)
-9. [Sprint #2: Data Engineering](#sprint-2-data-engineering)
-10. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
-11. [WorkFlow y tecnologías](#workflow-y-tecnologías)
-12. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
-13. [Validación de datos](#validación-de-datos)
-14. [Diccionario de datos](#diccionario-de-datos)
+7. [Sprint #2: Data Engineering](#sprint-2-data-engineering)
+8. [Estructura de datos implementada (Data Lake)](#estructura-de-datos-implementada-data-lake)
+9. [WorkFlow y tecnologías](#workflow-y-tecnologías)
+10. [PIPELINE ETL (AWS CLOUD)](#pipeline-etl-aws-cloud)
+11. [Validación de datos](#validación-de-datos)
+12. [Diccionario de datos](#diccionario-de-datos)
+13. [Sprint #3: Data Analytics + ML](#📈Sprint-3:-Data-analytics-+-ML)
 15. [MVP Dashboard](#mvp-dashboard)
 16. [Presentación](#presentación)
 
@@ -57,7 +56,7 @@ El **cronograma de trabajo** se gestiona en la plataforma Monday. Pueden verlo e
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/semana1.png" alt="Logo de Insight Analysts Collective">
 </p>
 
-# Sprint #1: Puesta en marcha y Trabajo con Datos
+# 📜Sprint #1: Puesta en marcha y Trabajo con Datos
 
 ## ETL (Extracción Transformación y Carga)
 Para este trabajo utilizamos un dataset de la ONU del Department of Economics and Social Affairs que nos proporcionó datos cada 5 años desde 1990 a 2020 sobre los migrantes según su destino, región, continente, nivel de ingresos y desarrollo de los países receptores. En el siguiente
@@ -88,7 +87,6 @@ Para comprender mejor la naturaleza de los flujos migratorios realizamos las sig
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/distribuci%C3%B3n%20por%20nivel%20de%20ingreso%20paises%20destino.jpeg" alt="distribución por nivel de ingresos del pais destino" width="400"/> <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/regiones%20preferidas%20para%20migrar.jpeg" alt="regiones preferidas por los latinos para migrar" width="400"/>
 </p>
-
 
 ## KPIs (Indicadores Clave de Desempeño)
 
@@ -130,17 +128,7 @@ Cálculo del KPI: ((PIB actual / PBI año anterior) - 1) * 100
 El aumento del PIB per cápita de un país puede hacerlo más atractivo para los inmigrantes, ya que generalmente se asocia con una mayor demanda de trabajo y más oportunidades económicas, como así también el mayor poder adquisitivo de sus habitantes. Si el PIB de Canadá aumenta significativamente junto con la tasa de migración desde América Latina, se podría argumentar que el país ofrece un entorno económico favorable y atrae a más inmigrantes en busca de mejores oportunidades. Este KPI establece una conexión entre el aumento del PIB y el interés de los migrantes, demostrando cómo un entorno económico en crecimiento puede influir en la decisión de migrar a Canadá
 
 
-## Stack tecnológico seleccionado:
-
-- Data Pipeline y Data Lake: AWS Glue y S3 Amazon para la ingesta y transformación de datos.
-* Bibliotecas de Python: Pandas, Numpy, Seaborn, Matplotlib.
-- Base de Datos: PostgreSQL para almacenar y gestionar datos.
-- Data Warehouse: Amazon Redshift para análisis de datos a gran escala.
-- Dashboard: PowerBI para visualización interactiva de resultados.
-- Modelos Predictivos: Python con bibliotecas como scikit-learn y TensorFlow.
-
-
-# Sprint #2: Data Engineering
+# 👨‍💻Sprint #2: Data Engineering
 
 ## Data Lake:
 
@@ -221,8 +209,6 @@ En resumen, la función Lambda realiza la transformación del ETL de manera efic
 
 En nuestro proyecto, aseguramos la calidad e integridad de la información mediante las siguientes prácticas:
 
-- **Verificación de Integridad**: Comprobamos que los datos sean coherentes y cumplan con las reglas establecidas antes de cargarlos en nuestro sistema.
-
 - **Limpieza de Datos**: Eliminamos valores nulos, duplicados y datos inconsistentes para trabajar con datos confiables.
 
 - **Validación de Formato**: Verificamos que los datos sigan el formato esperado, incluyendo fechas, números, minúsculas y mayúsculas, y otros tipos de datos.
@@ -241,11 +227,16 @@ En nuestro proyecto, aseguramos la calidad e integridad de la información media
 
 Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets/d/1Kqbgxvg3pzMPJwpafznR0o5v2Fp2Tjm3/edit#gid=1757762391)
  También puede encontrarse  dentro de la carpeta "documentación" del repositorio.
- 
-## MVP Dashboard
+
+
+# 📈Sprint 3: Data analytics + ML
+
+## Producto entregable: Dashboard finalizado
+
 <p align="center">
   <img src="https://github.com/Carlit0sCDC/migraciones-TPF/blob/main/img/dashboard.png" alt="dash">
 </p>
+
 
 ## Presentación
 A continuación les dejamos el link a la [presentación](https://www.canva.com/design/DAFs-WJPipA/HwFAwaGHidStTdXKRimmOQ/edit) del proyecto.
