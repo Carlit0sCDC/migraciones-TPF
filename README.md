@@ -232,7 +232,7 @@ Este es el link del [Diccionario de datos.](https://docs.google.com/spreadsheets
 
 ## Producto entregable: Tablero de control para uso interno (ministerio de migraciones Canadá)
 
-El dashboard esta estructurado en su inicio con una portada interactiva que lleva a las diferentes páginas en donde se veran reflejados los KPIs con sus respectivos gráficos informativos. Además se incluyeron páginas adicionales para un mejor entendimiento del porque de los KPIs y a la vez mejorar la visualización global del tablero.
+El dashboard esta estructurado en su inicio con una portada interactiva que lleva a las diferentes páginas en donde se ven reflejados los KPIs con sus respectivos gráficos informativos. Además se incluyeron páginas adicionales para un mejor entendimiento del porque de los KPIs y a la vez mejorar la visualización global del tablero.
 
 Se eligieron los colores corporativos de la consultora para el diseño y se agregaron diferentes botones con fucionalidades para obtener información detallada de los gráficos. Cada página es interactiva, el usuario puede filtrar según su necesidad de análisis
 
